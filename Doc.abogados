@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Jurídica - [Nombre del Consultorio]</title>
+    <style>
+        /* --- ESTILOS GENERALES --- */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        h1, h2, h3 {
+            color: #004080; /* Azul oscuro corporativo */
+            text-align: center;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #ff6600; /* Naranja para CTA destacado */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #e65c00;
+        }
+        section {
+            padding: 60px 0;
+        }
+
+        /* --- 1. SECCIÓN SUPERIOR (HERO) --- */
+        #hero {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+            background-image: url('placeholder-office.jpg'); /* Reemplazar con imagen real */
+            background-size: cover;
+            background-position: center;
+        }
+        #hero h1 {
+            color: white;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        #hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        /* --- 2. SECCIÓN DE SERVICIOS --- */
+        #servicios {
+            background-color: white;
+            text-align: center;
+        }
+        .servicio-item {
+            display: inline-block;
+            width: 30%;
+            margin: 15px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            vertical-align: top;
+        }
+        .servicio-item h3 {
+            font-size: 1.2em;
+        }
+        .confidencialidad {
+            background-color: #e6f7ff;
+            padding: 20px;
+            margin-top: 30px;
+            border-left: 5px solid #004080;
+        }
+
+        /* --- 3. SECCIÓN DE CONFIANZA --- */
+        #confianza {
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        .experticia {
+            font-size: 1.5em;
+            color: #ff6600;
+            margin-bottom: 40px;
+        }
+        .testimonial {
+            margin: 20px auto;
+            max-width: 600px;
+            font-style: italic;
+            border-left: 3px solid #ff6600;
+            padding-left: 15px;
+            text-align: left;
+        }
+
+        /* --- 4. SECCIÓN CONTACTO Y UBICACIÓN --- */
+        #contacto {
+            background-color: white;
+        }
+        .contacto-grid {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+        }
+        .contacto-info, .contacto-form, .contacto-map {
+            flex-basis: 33%;
+        }
+        .contacto-form input, .contacto-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contacto-map {
+            /* Placeholder para el mapa */
+            background-color: #ccc;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* --- 5. PIE DE PÁGINA (FOOTER) --- */
+        footer {
+            background-color: #002244; /* Azul muy oscuro */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #bbb;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons a {
+            font-size: 1.5em;
+            margin: 0 8px;
+        }
+
+        /* Media Queries para responsividad básica */
+        @media (max-width: 768px) {
+            .contacto-grid {
+                flex-direction: column;
+            }
+            .servicio-item {
+                width: 90%;
+                margin: 15px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Resuelva sus problemas legales con la **confianza** de un equipo experto.</h1>
+            <p>Asesoría legal integral y personalizada en **Derecho Civil, Laboral y de Familia**.</p>
+            <a href="#contacto" class="cta-button">Agenda una Consulta Gratuita Hoy</a>
+            
+        </div>
+    </section>
+
+    <section id="servicios">
+        <div class="container">
+            <h2>Nuestros Servicios Legales Principales</h2>
+            <div class="servicio-item">
+                <h3>⚖️ Derecho de Familia</h3>
+                <p>Manejo sensible y discreto de divorcios, custodia de menores y sucesiones. Protegemos lo más importante.</p>
+            </div>
+            <div class="servicio-item">
+                <h3>💼 Derecho Laboral</h3>
+                <p>Defensa y asesoría tanto para empleados (despidos, indemnizaciones) como para empresas. Buscamos acuerdos justos.</p>
+            </div>
+            <div class="servicio-item">
+                <h3>🏠 Derecho Civil</h3>
+                <p>Gestión de contratos, reclamaciones de deuda, propiedad y responsabilidad civil. Garantizamos sus derechos.</p>
+            </div>
+            <div class="confidencialidad">
+                **Mención de Valor:** Garantizamos absoluta **confidencialidad** y un trato **personalizado** en cada etapa de su caso.
+            </div>
+            <br>
+            <a href="#contacto" class="cta-button">Ver Todos los Servicios y Solicitar Cita</a>
+        </div>
+    </section>
+
+    <section id="confianza">
+        <div class="container">
+            <h2>Compromiso y Resultados Comprobados</h2>
+            <p class="experticia">Más de **[X] años de experiencia** y **[X] casos resueltos** exitosamente.</p>
+
+            <div class="testimonial">
+                <p>"La asesoría fue clara y el proceso, mucho menos estresante de lo que imaginé. Totalmente recomendados."</p>
+                <small>- Laura M., Cliente de Derecho de Familia</small>
+            </div>
+            <div class="testimonial">
+                <p>"Su gestión en nuestro caso laboral fue impecable. Un equipo muy profesional y comprometido."</p>
+                <small>- Empresa XYZ</small>
+            </div>
+            
+            <div style="margin-top: 40px;">
+                <p>Miembros del Ilustre Colegio de Abogados de [Ciudad]</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="container">
+            <h2>Encuéntranos y Contáctanos</h2>
+            <div class="contacto-grid">
+                <div class="contacto-info">
+                    <h3>Información Directa</h3>
+                    <p>📞 Teléfono: **[Número de Teléfono Principal]**</p>
+                    <p>📧 Email: **[Dirección de Correo Electrónico]**</p>
+                    <p>⏱ Horario de Atención: **[Días y Horas]**</p>
+                    <p>📍 Dirección: **[Calle, Número, Ciudad]**</p>
+                </div>
+                
+                <div class="contacto-form">
+                    <h3>Envíanos tu Consulta</h3>
+                    <form action="#" method="POST">
+                        <input type="text" name="nombre" placeholder="Nombre Completo" required>
+                        <input type="email" name="email" placeholder="Correo Electrónico" required>
+                        <input type="tel" name="telefono" placeholder="Teléfono" required>
+                        <textarea name="mensaje" rows="4" placeholder="Describe brevemente tu caso..." required></textarea>
+                        <button type="submit" class="cta-button">Enviar Consulta</button>
+                    </form>
+                </div>
+
+                <div class="contacto-map">
+                    Mapa de Google Maps
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 [Nombre del Consultorio Jurídico]. Todos los derechos reservados.</p>
+            <div>
+                <a href="#">Política de Privacidad</a> | <a href="#">Términos de Servicio</a>
+            </div>
+            <div class="social-icons">
+                <a href="[Link a Facebook]">F</a>
+                <a href="[Link a LinkedIn]">L</a>
+                </div>
+        </div>
+    </footer>
+
+</body>
+</html>
